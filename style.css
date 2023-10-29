@@ -1,0 +1,129 @@
+body { 
+    font-family: Segoe UI; 
+    background: #858585; 
+    margin: 0;
+}
+
+#container { 
+    border: solid 1px; 
+    width: 975px; 
+    margin: 10px auto; 
+    background: #EEE; 
+    overflow: hidden;
+}
+
+h1 { 
+    font-size: 24pt;     
+    margin-top: 50px; 
+    margin-bottom: 40px; 
+    border-bottom: solid 1px 
+}
+
+h2 { 
+    text-align: center; 
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+}
+
+.side {
+    float: right;
+}
+
+.content { 
+    padding: 40px 80px; 
+    padding-top: 0px
+}
+
+.divider { height: 1px; 
+    width: 800px; 
+    margin: 40px auto; 
+    background-color: #000
+}
+
+.center { text-align:center; 
+    margin: 0 auto
+}
+
+
+
+/* Header */
+#iheader { 
+    width: 975px; 
+    height: 227px; 
+    border: none; 
+    display:block; 
+    background-color: #777; 
+}
+
+header {
+    background-color: #333;
+}
+
+header ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0px 10px; 
+    overflow: hidden;
+}
+
+header li { 
+    float: left; 
+}
+
+header li a { 
+    display: block; 
+    color: #FFF; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+header li a:hover { 
+    background-color: #111; 
+}
+
+header form { 
+    display: block; 
+    color: #FFF; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+/* Footer */
+#ifooter { 
+    width: 975px; 
+    height: 50px; 
+    border: none; 
+    display:block; 
+    background-color: #777; 
+}
+footer { 
+    height: 50px; 
+    background: #333; 
+}
+
+nav {
+    color: #FFF;  
+    padding: 15px 20px;
+}
+
+nav a {
+    color: #FFF
+}
+
+#banner {
+    height: 180px; 
+    background-color: #000000;
+}
+
+a {
+    color:#000
+}
+
+.pildid {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
