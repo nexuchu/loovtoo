@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loovtöö</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <iframe id="iheader" scrolling="no" src="header.html"></iframe>
+
+        <div class="content">
+            <h1>Oskustest</h1>
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-body">
+                  <h2 id="question">küsimuse tekst</h2>
+                  <ul>
+                    <li>
+                      <input type="radio" name="answer" id="a" class="answer" />
+                      <label for="a" id="a_text">Questions</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="answer" id="b" class="answer" />
+                      <label for="b" id="b_text">Questions</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="answer" id="c" class="answer" />
+                      <label for="c" id="c_text">Questions</label>
+                    </li>
+                    <li>
+                      <input type="radio" name="answer" id="d" class="answer" />
+                      <label for="d" id="d_text">Questions</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="quiz-footer">
+                  <div class="quiz-details"></div>
+                  <center><button type="button" id="btn">Submit</button></center>
+                </div>
+              </div>
+        </div>
+
+        <script src="script.js"></script>
+        <iframe id="ifooter" scrolling="no" src="footer.html"></iframe>
+    </div>
+</body>
+</html>
